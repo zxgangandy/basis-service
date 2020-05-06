@@ -1,0 +1,8 @@
+server:
+  port: 8900
+
+spring:
+  application:
+    name: basis-service
+  profiles:
+    active: @profiles.active@

@@ -1,0 +1,14 @@
+logging:
+  config: classpath:logback-prod.xml
+
+app:
+  id: basis-service
+
+apollo:
+  meta: http://127.0.0.1:8080
+  cluster: default
+  bootstrap:
+    namespaces: application.yml
+  enabled: true
+
+
